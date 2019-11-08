@@ -79,6 +79,8 @@ class LinkedList:
 Когда будет достигнут последний элемент списка, необходимо назначить его новой головой.
 
 ```python
+# Reverse of linked list
+
 class LinkedListWithReverse(LinkedList):
     def reverse(self):
         cur = self.head
@@ -138,6 +140,7 @@ class LinkedListWithSentinel:
 необходимо итерироваться с начала списка, чтобы его найти.
 
 ```python
+# Simple implementation of singly linked list
 
 class ListNode:
     def __init__(self, key, _next=None):
@@ -166,7 +169,6 @@ class SinglyLinkedList:
         else:
             # if prev not found, it means that its head
             self.head = node.next
-
 ```
 
 
@@ -176,6 +178,8 @@ class SinglyLinkedList:
 где и будем хранить предыдущий элемент.
 
 ```python
+# Reverse of singly linked list
+
 class SinglyLinkedListWithReverse(SinglyLinkedList):
     def reverse(self):
         cur = self.head
