@@ -43,7 +43,6 @@ class MyStack:
         return self.st[self.st_top]
 
 ```
-<br>
 
 ### Очередь
 
@@ -88,7 +87,6 @@ class MyQueue:
         self.head = (self.head + 1) % (self.max_size + 1)
         return self.q[self.head]
 ```
-<br>
 
 ### Двойная очередь
 Двойная очередь является модификацией обычной очереди, где добавляется функционал добавления в начало очереди и удаление из хвоста.
