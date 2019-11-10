@@ -1,10 +1,10 @@
 ## Связный список
 
-<p style="text-align: center">
-<img src="https://raw.githubusercontent.com/zhas/articles/master/images/queue.png">
-</p>
-
 Продолжаем тему структур данных. В прошлой статье были описаны [стэки и очереди](https://nurushev.dev/stack-and-queue/). На этот раз речь пойдет о **связном списке**.
+
+<p style="text-align: center">
+<img src="https://raw.githubusercontent.com/zhas/articles/master/images/linkedlist.png">
+</p>
 
 **Связный список** - структура данных, которая хранит множество объектов в линейном порядке, где доступ к элементам осуществляется через соседние элементы.
 В отличие от массивов:
