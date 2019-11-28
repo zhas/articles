@@ -1,5 +1,9 @@
 Существует большое количество алгоритмов, предназначенных для сортировки последовательностей, но среди них не очень много алгоритмов обладающих хорошим быстродействием и гибкостью. В данной статье будет разобрана **сортировка слиянием**, которая имеет хорошую асимптотическую сложность O(N*log(N)) и хорошую гибкость, вследствие чего часто применяется на практике. 
 
+<p style="text-align: center">
+<img src="https://raw.githubusercontent.com/zhas/articles/master/images/merge_sort_1.png">
+</p>
+
 ## Описание алгоритма
 
 Данный алгоритм состоит из трех этапов:
@@ -35,8 +39,8 @@
 
 На картинке ниже можно увидеть полный цикл сортировки слиянием, на примере последовательности [3,4,2,1,2,6,4]:
 
- <p style="text-align: center">
-<img src="https://raw.githubusercontent.com/zhas/articles/master/images/merge_sort.png">
+<p style="text-align: center">
+<img src="https://raw.githubusercontent.com/zhas/articles/master/images/merge_sort_2.png">
 </p>
 
 ## Оценка сложности алгоритма
