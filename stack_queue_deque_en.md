@@ -131,8 +131,6 @@ An example of deque wrapped in a stack and a queue, just for demonstration (pyth
 # Implementing stack and queue with deque from collections
 from collections import deque
 
-stack = deque()
-
 
 class Stack(deque):
     def push(self, x):

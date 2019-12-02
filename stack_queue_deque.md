@@ -129,8 +129,6 @@ collections.deque - двойная очередь реализованная в 
 # Implementing stack and queue with deque from collections
 from collections import deque
 
-stack = deque()
-
 
 class Stack(deque):
     def push(self, x):
